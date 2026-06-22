@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: gold;
+}
+
+.item {
+  background: #222;
+  margin: 8px auto;
+  padding: 10px;
+  width: 60%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.rank {
+  color: orange;
+  font-weight: bold;
+}
