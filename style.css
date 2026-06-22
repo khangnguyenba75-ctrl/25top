@@ -3,21 +3,25 @@ body {
   background: #111;
   color: white;
   text-align: center;
+  margin: 0;
 }
 
 h1 {
   color: gold;
+  padding: 15px;
 }
 
 .item {
   background: #222;
   margin: 8px auto;
-  padding: 10px;
-  width: 60%;
+  padding: 12px;
+  width: 90%;
+  max-width: 500px;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
 }
+
 .rank {
   color: orange;
   font-weight: bold;
