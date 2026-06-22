@@ -14,7 +14,6 @@ const channels = [
   "Dude Perfect",
   "Markiplier",
   "A4",
-  "Fede Vigevani",
   "Dream",
   "MrBeast Gaming",
   "Brent Rivera",
@@ -22,8 +21,9 @@ const channels = [
   "Techno Gamerz",
   "BB Ki Vines",
   "5-Minute Crafts",
-  "Shemaroo",
-  "Goldmines"
+  "Goldmines",
+  "Sony SAB",
+  "Zee TV"
 ];
 
 const list = document.getElementById("list");
