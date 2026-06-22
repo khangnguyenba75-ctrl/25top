@@ -1,0 +1,13 @@
+name: Top25 Deploy
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run script
+        run: echo "Top 25 leaderboard loaded"
